@@ -1,0 +1,4 @@
+Test Result ID,Test Case,Path,Test Suite,OS,OS Version,Browser,Browser Version,Status,Start Time,End Time,Duration,Age
+22871030,search flight,Test Cases,fly365,Mac OS X,Mac OS X 64bit,Chrome ,76.0.3809.132,PASSED,2019-09-22 12:12:35,2019-09-22 12:17:02,266537,
+22871031,signUp,Test Cases,fly365,Mac OS X,Mac OS X 64bit,Chrome ,76.0.3809.132,PASSED,2019-09-22 12:17:02,2019-09-22 12:18:16,74580,
+22871032,Check Afta,Test Cases,fly365,Mac OS X,Mac OS X 64bit,Chrome ,76.0.3809.132,PASSED,2019-09-22 12:18:16,2019-09-22 12:18:47,30891,
