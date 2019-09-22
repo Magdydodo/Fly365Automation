@@ -1,0 +1,228 @@
+1
+00:00:00,609 --> 00:00:00,644
+1. openBrowser("")
+
+2
+00:00:06,931 --> 00:00:06,933
+5. navigateToUrl("https://www.fly365.com/")
+
+3
+00:00:20,793 --> 00:00:20,794
+9. for ([row = 1, row <= findTestData("airportCodes").getRowNumbers(), (row++)])
+
+4
+00:00:20,870 --> 00:00:20,872
+1. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), findTestData("airportCodes").getValue(1, row))
+
+5
+00:00:24,408 --> 00:00:24,413
+5. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), Keys.chord(ENTER))
+
+6
+00:00:26,671 --> 00:00:26,673
+9. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), findTestData("airportCodes").getValue(2, row))
+
+7
+00:00:30,000 --> 00:00:30,002
+13. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), Keys.chord(ENTER))
+
+8
+00:00:32,306 --> 00:00:32,307
+17. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), findTestData("airportCodes").getValue(3, row))
+
+9
+00:00:34,547 --> 00:00:34,549
+21. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), Keys.chord(ENTER))
+
+10
+00:00:36,748 --> 00:00:36,756
+25. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), findTestData("airportCodes").getValue(3, row + 10))
+
+11
+00:00:38,954 --> 00:00:38,955
+29. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), Keys.chord(TAB))
+
+12
+00:00:41,178 --> 00:00:41,180
+33. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy"))
+
+13
+00:00:43,523 --> 00:00:43,525
+37. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult"), findTestData("airportCodes").getValue(4, row))
+
+14
+00:00:46,783 --> 00:00:46,784
+41. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child"), findTestData("airportCodes").getValue(5, row))
+
+15
+00:00:50,028 --> 00:00:50,030
+45. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), findTestData("airportCodes").getValue(6, row))
+
+16
+00:00:53,240 --> 00:00:53,248
+49. sendKeys(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN, TAB, ENTER))
+
+17
+00:00:55,515 --> 00:00:55,519
+53. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now"))
+
+18
+00:00:57,781 --> 00:00:57,784
+57. waitForPageLoad(3)
+
+19
+00:00:59,069 --> 00:00:59,070
+61. closeBrowser()
+
+20
+00:01:00,289 --> 00:01:00,291
+65. openBrowser("")
+
+21
+00:01:06,169 --> 00:01:06,172
+69. navigateToUrl("https://www.fly365.com/")
+
+22
+00:01:17,821 --> 00:01:17,822
+1. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), findTestData("airportCodes").getValue(1, row))
+
+23
+00:01:21,142 --> 00:01:21,144
+5. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), Keys.chord(ENTER))
+
+24
+00:01:23,352 --> 00:01:23,353
+9. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), findTestData("airportCodes").getValue(2, row))
+
+25
+00:01:26,603 --> 00:01:26,604
+13. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), Keys.chord(ENTER))
+
+26
+00:01:28,879 --> 00:01:28,885
+17. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), findTestData("airportCodes").getValue(3, row))
+
+27
+00:01:31,124 --> 00:01:31,129
+21. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), Keys.chord(ENTER))
+
+28
+00:01:33,316 --> 00:01:33,326
+25. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), findTestData("airportCodes").getValue(3, row + 10))
+
+29
+00:01:35,536 --> 00:01:35,537
+29. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), Keys.chord(TAB))
+
+30
+00:01:37,691 --> 00:01:37,698
+33. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy"))
+
+31
+00:01:39,939 --> 00:01:39,940
+37. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult"), findTestData("airportCodes").getValue(4, row))
+
+32
+00:01:43,204 --> 00:01:43,206
+41. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child"), findTestData("airportCodes").getValue(5, row))
+
+33
+00:01:46,450 --> 00:01:46,451
+45. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), findTestData("airportCodes").getValue(6, row))
+
+34
+00:01:49,686 --> 00:01:49,687
+49. sendKeys(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN, TAB, ENTER))
+
+35
+00:01:51,916 --> 00:01:51,916
+53. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now"))
+
+36
+00:01:54,155 --> 00:01:54,159
+57. waitForPageLoad(3)
+
+37
+00:01:55,177 --> 00:01:55,180
+61. closeBrowser()
+
+38
+00:01:56,485 --> 00:01:56,486
+65. openBrowser("")
+
+39
+00:02:01,482 --> 00:02:01,489
+69. navigateToUrl("https://www.fly365.com/")
+
+40
+00:02:11,392 --> 00:02:11,394
+1. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), findTestData("airportCodes").getValue(1, row))
+
+41
+00:02:14,722 --> 00:02:14,723
+5. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin"), Keys.chord(ENTER))
+
+42
+00:02:16,949 --> 00:02:16,950
+9. setText(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), findTestData("airportCodes").getValue(2, row))
+
+43
+00:02:20,266 --> 00:02:20,267
+13. sendKeys(findTestObject("Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination"), Keys.chord(ENTER))
+
+44
+00:02:22,501 --> 00:02:22,502
+17. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), findTestData("airportCodes").getValue(3, row))
+
+45
+00:02:24,737 --> 00:02:24,738
+21. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_Multi City_d"), Keys.chord(ENTER))
+
+46
+00:02:26,914 --> 00:02:26,924
+25. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), findTestData("airportCodes").getValue(3, row + 10))
+
+47
+00:02:29,169 --> 00:02:29,169
+29. sendKeys(findTestObject("Object Repository/Page_Fly365 - Search Flights/input_-_a"), Keys.chord(TAB))
+
+48
+00:02:31,359 --> 00:02:31,360
+33. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy"))
+
+49
+00:02:33,636 --> 00:02:33,637
+37. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult"), findTestData("airportCodes").getValue(4, row))
+
+50
+00:02:36,884 --> 00:02:36,885
+41. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child"), findTestData("airportCodes").getValue(5, row))
+
+51
+00:02:40,135 --> 00:02:40,136
+45. setText(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), findTestData("airportCodes").getValue(6, row))
+
+52
+00:02:43,391 --> 00:02:43,392
+49. sendKeys(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant"), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN, TAB, ENTER))
+
+53
+00:02:45,694 --> 00:02:45,695
+53. click(findTestObject("Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now"))
+
+54
+00:02:47,979 --> 00:02:47,980
+57. waitForPageLoad(3)
+
+55
+00:02:48,999 --> 00:02:49,000
+61. closeBrowser()
+
+56
+00:02:50,187 --> 00:02:50,188
+65. openBrowser("")
+
+57
+00:02:57,212 --> 00:02:57,212
+69. navigateToUrl("https://www.fly365.com/")
+

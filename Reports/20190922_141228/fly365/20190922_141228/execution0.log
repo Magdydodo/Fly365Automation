@@ -1,0 +1,4559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355172</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/fly365</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">fly365</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/fly365</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355194</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = mgdy - mymacmini</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">mgdy - mymacmini</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355195</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355196</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.6</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.6</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355212</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355258</millis>
+  <sequence>5</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Microsoft Teams Incoming Webhook is empty.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:35</date>
+  <millis>1569154355603</millis>
+  <sequence>6</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/search flight</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/search flight</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/search flight</property>
+  <property name="source">\\Users\\mgdy\\Downloads\\flyTest-auto-Katalon-master\\Test Cases\\search flight.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:37</date>
+  <millis>1569154357026</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;airportCodes\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:37</date>
+  <millis>1569154357105</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:37</date>
+  <millis>1569154357435</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:37</date>
+  <millis>1569154357487</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:41</date>
+  <millis>1569154361805</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c4bb4be733f437824dcebabf05675382</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">c4bb4be733f437824dcebabf05675382</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362831</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362832</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362833</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362835</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362835</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362836</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:42</date>
+  <millis>1569154362837</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:12:56</date>
+  <millis>1569154376725</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.fly365.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:56</date>
+  <millis>1569154376726</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:12:56</date>
+  <millis>1569154376726</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:00</date>
+  <millis>1569154380304</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;dubai&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:00</date>
+  <millis>1569154380305</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:00</date>
+  <millis>1569154380305</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:02</date>
+  <millis>1569154382532</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:02</date>
+  <millis>1569154382533</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:02</date>
+  <millis>1569154382534</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:05</date>
+  <millis>1569154385875</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;jeddah&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:05</date>
+  <millis>1569154385876</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:05</date>
+  <millis>1569154385878</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:08</date>
+  <millis>1569154388121</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:08</date>
+  <millis>1569154388139</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:08</date>
+  <millis>1569154388139</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:10</date>
+  <millis>1569154390365</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;25-Sep&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:10</date>
+  <millis>1569154390366</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:10</date>
+  <millis>1569154390368</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:12</date>
+  <millis>1569154392525</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:12</date>
+  <millis>1569154392526</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:12</date>
+  <millis>1569154392526</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:14</date>
+  <millis>1569154394756</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;5-Oct&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:14</date>
+  <millis>1569154394757</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:14</date>
+  <millis>1569154394757</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:16</date>
+  <millis>1569154396934</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:16</date>
+  <millis>1569154396935</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:16</date>
+  <millis>1569154396935</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:19</date>
+  <millis>1569154399170</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:19</date>
+  <millis>1569154399170</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:19</date>
+  <millis>1569154399171</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:22</date>
+  <millis>1569154402407</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:22</date>
+  <millis>1569154402408</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:22</date>
+  <millis>1569154402409</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:25</date>
+  <millis>1569154405632</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:25</date>
+  <millis>1569154405633</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:25</date>
+  <millis>1569154405633</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408809</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408811</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408812</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408814</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408814</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408816</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408816</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408822</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:28</date>
+  <millis>1569154408823</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:31</date>
+  <millis>1569154411048</millis>
+  <sequence>184</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:31</date>
+  <millis>1569154411217</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:31</date>
+  <millis>1569154411217</millis>
+  <sequence>186</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:38</date>
+  <millis>1569154418289</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 7 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:38</date>
+  <millis>1569154418290</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:38</date>
+  <millis>1569154418290</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419476</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419477</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419477</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419486</millis>
+  <sequence>199</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419486</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:39</date>
+  <millis>1569154419492</millis>
+  <sequence>202</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:47</date>
+  <millis>1569154427127</millis>
+  <sequence>205</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d0ea7aa50dbcd2441bcdac74f274a33f</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">d0ea7aa50dbcd2441bcdac74f274a33f</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428363</millis>
+  <sequence>206</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428364</millis>
+  <sequence>207</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428365</millis>
+  <sequence>208</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428365</millis>
+  <sequence>209</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428366</millis>
+  <sequence>210</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428367</millis>
+  <sequence>211</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:13:48</date>
+  <millis>1569154428367</millis>
+  <sequence>212</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:02</date>
+  <millis>1569154442984</millis>
+  <sequence>215</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.fly365.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:03</date>
+  <millis>1569154443000</millis>
+  <sequence>216</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:03</date>
+  <millis>1569154443000</millis>
+  <sequence>217</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:06</date>
+  <millis>1569154446396</millis>
+  <sequence>230</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;cairo&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:06</date>
+  <millis>1569154446396</millis>
+  <sequence>231</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:06</date>
+  <millis>1569154446397</millis>
+  <sequence>232</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:08</date>
+  <millis>1569154448542</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:08</date>
+  <millis>1569154448542</millis>
+  <sequence>239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:08</date>
+  <millis>1569154448542</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:11</date>
+  <millis>1569154451804</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;jeddah&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:11</date>
+  <millis>1569154451804</millis>
+  <sequence>254</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:11</date>
+  <millis>1569154451804</millis>
+  <sequence>255</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:14</date>
+  <millis>1569154454024</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:14</date>
+  <millis>1569154454025</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:14</date>
+  <millis>1569154454026</millis>
+  <sequence>263</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:16</date>
+  <millis>1569154456281</millis>
+  <sequence>273</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;26-Sep&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:16</date>
+  <millis>1569154456281</millis>
+  <sequence>274</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:16</date>
+  <millis>1569154456282</millis>
+  <sequence>275</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:18</date>
+  <millis>1569154458431</millis>
+  <sequence>281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:18</date>
+  <millis>1569154458432</millis>
+  <sequence>282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:18</date>
+  <millis>1569154458432</millis>
+  <sequence>283</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:20</date>
+  <millis>1569154460650</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;6-Oct&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:20</date>
+  <millis>1569154460650</millis>
+  <sequence>294</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:20</date>
+  <millis>1569154460651</millis>
+  <sequence>295</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:22</date>
+  <millis>1569154462826</millis>
+  <sequence>301</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:22</date>
+  <millis>1569154462826</millis>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:22</date>
+  <millis>1569154462827</millis>
+  <sequence>303</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:25</date>
+  <millis>1569154465095</millis>
+  <sequence>310</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:25</date>
+  <millis>1569154465096</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:25</date>
+  <millis>1569154465097</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:28</date>
+  <millis>1569154468293</millis>
+  <sequence>325</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:28</date>
+  <millis>1569154468294</millis>
+  <sequence>326</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:28</date>
+  <millis>1569154468295</millis>
+  <sequence>327</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:31</date>
+  <millis>1569154471463</millis>
+  <sequence>340</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:31</date>
+  <millis>1569154471464</millis>
+  <sequence>341</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:31</date>
+  <millis>1569154471465</millis>
+  <sequence>342</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:34</date>
+  <millis>1569154474628</millis>
+  <sequence>355</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:34</date>
+  <millis>1569154474629</millis>
+  <sequence>356</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:34</date>
+  <millis>1569154474629</millis>
+  <sequence>357</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:34</date>
+  <millis>1569154474630</millis>
+  <sequence>358</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, TAB, ENTER))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476856</millis>
+  <sequence>364</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + DOWN + TAB + ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476858</millis>
+  <sequence>365</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, TAB, ENTER))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476859</millis>
+  <sequence>366</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476859</millis>
+  <sequence>367</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476861</millis>
+  <sequence>368</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476870</millis>
+  <sequence>369</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476876</millis>
+  <sequence>370</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:36</date>
+  <millis>1569154476877</millis>
+  <sequence>371</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:39</date>
+  <millis>1569154479099</millis>
+  <sequence>378</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:39</date>
+  <millis>1569154479099</millis>
+  <sequence>379</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:39</date>
+  <millis>1569154479100</millis>
+  <sequence>380</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:46</date>
+  <millis>1569154486103</millis>
+  <sequence>382</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 7 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:46</date>
+  <millis>1569154486103</millis>
+  <sequence>383</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:46</date>
+  <millis>1569154486104</millis>
+  <sequence>384</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487322</millis>
+  <sequence>386</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487414</millis>
+  <sequence>387</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487414</millis>
+  <sequence>388</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487421</millis>
+  <sequence>393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487422</millis>
+  <sequence>394</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:47</date>
+  <millis>1569154487429</millis>
+  <sequence>396</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:53</date>
+  <millis>1569154493446</millis>
+  <sequence>399</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 1d26e049e20ed9dbbcc9536f9f3ac0b2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">1d26e049e20ed9dbbcc9536f9f3ac0b2</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494462</millis>
+  <sequence>400</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494462</millis>
+  <sequence>401</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494463</millis>
+  <sequence>402</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494463</millis>
+  <sequence>403</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494464</millis>
+  <sequence>404</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494464</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:14:54</date>
+  <millis>1569154494464</millis>
+  <sequence>406</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:12</date>
+  <millis>1569154512187</millis>
+  <sequence>409</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.fly365.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:12</date>
+  <millis>1569154512189</millis>
+  <sequence>410</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:12</date>
+  <millis>1569154512189</millis>
+  <sequence>411</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:15</date>
+  <millis>1569154515582</millis>
+  <sequence>424</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;dubai&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:15</date>
+  <millis>1569154515583</millis>
+  <sequence>425</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:15</date>
+  <millis>1569154515583</millis>
+  <sequence>426</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:17</date>
+  <millis>1569154517722</millis>
+  <sequence>432</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:17</date>
+  <millis>1569154517722</millis>
+  <sequence>433</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:17</date>
+  <millis>1569154517722</millis>
+  <sequence>434</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:20</date>
+  <millis>1569154520997</millis>
+  <sequence>447</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;cairo&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:20</date>
+  <millis>1569154520997</millis>
+  <sequence>448</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:20</date>
+  <millis>1569154520998</millis>
+  <sequence>449</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:23</date>
+  <millis>1569154523190</millis>
+  <sequence>455</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:23</date>
+  <millis>1569154523192</millis>
+  <sequence>456</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:23</date>
+  <millis>1569154523192</millis>
+  <sequence>457</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:25</date>
+  <millis>1569154525391</millis>
+  <sequence>467</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;27-Sep&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:25</date>
+  <millis>1569154525391</millis>
+  <sequence>468</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:25</date>
+  <millis>1569154525392</millis>
+  <sequence>469</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:27</date>
+  <millis>1569154527516</millis>
+  <sequence>475</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:27</date>
+  <millis>1569154527517</millis>
+  <sequence>476</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:27</date>
+  <millis>1569154527517</millis>
+  <sequence>477</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:29</date>
+  <millis>1569154529750</millis>
+  <sequence>487</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;7-Oct&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:29</date>
+  <millis>1569154529750</millis>
+  <sequence>488</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:29</date>
+  <millis>1569154529751</millis>
+  <sequence>489</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:31</date>
+  <millis>1569154531902</millis>
+  <sequence>495</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:31</date>
+  <millis>1569154531906</millis>
+  <sequence>496</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:31</date>
+  <millis>1569154531906</millis>
+  <sequence>497</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:34</date>
+  <millis>1569154534103</millis>
+  <sequence>504</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:34</date>
+  <millis>1569154534104</millis>
+  <sequence>505</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:34</date>
+  <millis>1569154534104</millis>
+  <sequence>506</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:37</date>
+  <millis>1569154537320</millis>
+  <sequence>519</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:37</date>
+  <millis>1569154537320</millis>
+  <sequence>520</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:37</date>
+  <millis>1569154537321</millis>
+  <sequence>521</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:40</date>
+  <millis>1569154540499</millis>
+  <sequence>534</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:40</date>
+  <millis>1569154540500</millis>
+  <sequence>535</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:40</date>
+  <millis>1569154540500</millis>
+  <sequence>536</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543658</millis>
+  <sequence>549</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543659</millis>
+  <sequence>550</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543659</millis>
+  <sequence>551</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543660</millis>
+  <sequence>552</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543663</millis>
+  <sequence>553</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:43</date>
+  <millis>1569154543664</millis>
+  <sequence>554</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545837</millis>
+  <sequence>560</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + DOWN + DOWN + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545838</millis>
+  <sequence>561</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545838</millis>
+  <sequence>562</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545838</millis>
+  <sequence>563</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545840</millis>
+  <sequence>564</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:45</date>
+  <millis>1569154545842</millis>
+  <sequence>565</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:48</date>
+  <millis>1569154548090</millis>
+  <sequence>572</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:48</date>
+  <millis>1569154548090</millis>
+  <sequence>573</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:48</date>
+  <millis>1569154548091</millis>
+  <sequence>574</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:55</date>
+  <millis>1569154555163</millis>
+  <sequence>576</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 7 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:55</date>
+  <millis>1569154555175</millis>
+  <sequence>577</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:55</date>
+  <millis>1569154555176</millis>
+  <sequence>578</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556358</millis>
+  <sequence>580</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556359</millis>
+  <sequence>581</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556359</millis>
+  <sequence>582</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556392</millis>
+  <sequence>587</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556392</millis>
+  <sequence>588</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:15:56</date>
+  <millis>1569154556396</millis>
+  <sequence>590</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:01</date>
+  <millis>1569154561832</millis>
+  <sequence>593</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 008505f929f1d93c4cbe0e550ce351e0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">008505f929f1d93c4cbe0e550ce351e0</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563116</millis>
+  <sequence>594</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563307</millis>
+  <sequence>595</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563308</millis>
+  <sequence>596</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563309</millis>
+  <sequence>597</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563313</millis>
+  <sequence>598</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563315</millis>
+  <sequence>599</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:03</date>
+  <millis>1569154563316</millis>
+  <sequence>600</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:15</date>
+  <millis>1569154575595</millis>
+  <sequence>603</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.fly365.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:15</date>
+  <millis>1569154575596</millis>
+  <sequence>604</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:15</date>
+  <millis>1569154575596</millis>
+  <sequence>605</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:18</date>
+  <millis>1569154578958</millis>
+  <sequence>618</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;cairo&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:18</date>
+  <millis>1569154578959</millis>
+  <sequence>619</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:18</date>
+  <millis>1569154578959</millis>
+  <sequence>620</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:21</date>
+  <millis>1569154581100</millis>
+  <sequence>626</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:21</date>
+  <millis>1569154581100</millis>
+  <sequence>627</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_origin\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:21</date>
+  <millis>1569154581101</millis>
+  <sequence>628</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:24</date>
+  <millis>1569154584365</millis>
+  <sequence>641</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;dubai&amp;apos; is set on object &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:24</date>
+  <millis>1569154584366</millis>
+  <sequence>642</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(2, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:24</date>
+  <millis>1569154584366</millis>
+  <sequence>643</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:26</date>
+  <millis>1569154586564</millis>
+  <sequence>649</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:26</date>
+  <millis>1569154586620</millis>
+  <sequence>650</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/flyTest/Page_Fly365 - Search Flights/input_Multi City_destination\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:26</date>
+  <millis>1569154586620</millis>
+  <sequence>651</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:28</date>
+  <millis>1569154588824</millis>
+  <sequence>661</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;28-Sep&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:28</date>
+  <millis>1569154588824</millis>
+  <sequence>662</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:28</date>
+  <millis>1569154588824</millis>
+  <sequence>663</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:31</date>
+  <millis>1569154591036</millis>
+  <sequence>669</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:31</date>
+  <millis>1569154591036</millis>
+  <sequence>670</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_Multi City_d\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:31</date>
+  <millis>1569154591037</millis>
+  <sequence>671</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:33</date>
+  <millis>1569154593234</millis>
+  <sequence>681</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;8-Oct&amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:33</date>
+  <millis>1569154593235</millis>
+  <sequence>682</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(3, row + 10))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:33</date>
+  <millis>1569154593236</millis>
+  <sequence>683</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:35</date>
+  <millis>1569154595417</millis>
+  <sequence>689</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/input_-_a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:35</date>
+  <millis>1569154595417</millis>
+  <sequence>690</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/input_-_a\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:35</date>
+  <millis>1569154595417</millis>
+  <sequence>691</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:37</date>
+  <millis>1569154597635</millis>
+  <sequence>698</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:37</date>
+  <millis>1569154597635</millis>
+  <sequence>699</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/div_1 Passengers Economy\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:37</date>
+  <millis>1569154597636</millis>
+  <sequence>700</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:40</date>
+  <millis>1569154600814</millis>
+  <sequence>713</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;3&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:40</date>
+  <millis>1569154600814</millis>
+  <sequence>714</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Adult_adult\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(4, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:40</date>
+  <millis>1569154600814</millis>
+  <sequence>715</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:43</date>
+  <millis>1569154603982</millis>
+  <sequence>728</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:43</date>
+  <millis>1569154603983</millis>
+  <sequence>729</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Child_child\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(5, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:43</date>
+  <millis>1569154603983</millis>
+  <sequence>730</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607150</millis>
+  <sequence>743</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607150</millis>
+  <sequence>744</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), findTestData(\&amp;quot;airportCodes\&amp;quot;).getValue(6, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607151</millis>
+  <sequence>745</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607151</millis>
+  <sequence>746</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607152</millis>
+  <sequence>747</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607152</millis>
+  <sequence>748</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607153</millis>
+  <sequence>749</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:47</date>
+  <millis>1569154607154</millis>
+  <sequence>750</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:49</date>
+  <millis>1569154609369</millis>
+  <sequence>756</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + DOWN + DOWN + DOWN + &amp;apos; sent to object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:49</date>
+  <millis>1569154609370</millis>
+  <sequence>757</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/input_Infant_infant\&amp;quot;), Keys.chord(TAB, ARROW_DOWN, ARROW_DOWN, ARROW_DOWN))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:49</date>
+  <millis>1569154609370</millis>
+  <sequence>758</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:49</date>
+  <millis>1569154609371</millis>
+  <sequence>759</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:51</date>
+  <millis>1569154611597</millis>
+  <sequence>766</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:51</date>
+  <millis>1569154611598</millis>
+  <sequence>767</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Fly365 - search-results/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/Page_Fly365 - Search Flights/button_search now\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:51</date>
+  <millis>1569154611598</millis>
+  <sequence>768</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:58</date>
+  <millis>1569154618605</millis>
+  <sequence>770</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 7 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:58</date>
+  <millis>1569154618605</millis>
+  <sequence>771</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(7)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:58</date>
+  <millis>1569154618605</millis>
+  <sequence>772</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619754</millis>
+  <sequence>774</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619755</millis>
+  <sequence>775</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619755</millis>
+  <sequence>776</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619756</millis>
+  <sequence>777</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619756</millis>
+  <sequence>778</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : break</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619757</millis>
+  <sequence>779</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 4)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619758</millis>
+  <sequence>780</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;airportCodes\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619758</millis>
+  <sequence>781</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/search flight</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619759</millis>
+  <sequence>782</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:16:59</date>
+  <millis>1569154619784</millis>
+  <sequence>785</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:02</date>
+  <millis>1569154622140</millis>
+  <sequence>786</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/search flight</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:02</date>
+  <millis>1569154622154</millis>
+  <sequence>787</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/signUp</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/signUp</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/signUp</property>
+  <property name="source">\\Users\\mgdy\\Downloads\\flyTest-auto-Katalon-master\\Test Cases\\signUp.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:02</date>
+  <millis>1569154622394</millis>
+  <sequence>789</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;mail\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:03</date>
+  <millis>1569154623473</millis>
+  <sequence>794</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:03</date>
+  <millis>1569154623482</millis>
+  <sequence>796</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:08</date>
+  <millis>1569154628278</millis>
+  <sequence>799</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = beefa7ae5f867b35cfea51bb892cc505</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">beefa7ae5f867b35cfea51bb892cc505</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629388</millis>
+  <sequence>800</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629389</millis>
+  <sequence>801</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629389</millis>
+  <sequence>802</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629390</millis>
+  <sequence>803</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629390</millis>
+  <sequence>804</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629391</millis>
+  <sequence>805</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:09</date>
+  <millis>1569154629391</millis>
+  <sequence>806</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:22</date>
+  <millis>1569154642852</millis>
+  <sequence>809</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.fly365.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:22</date>
+  <millis>1569154642858</millis>
+  <sequence>810</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.fly365.com/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:22</date>
+  <millis>1569154642859</millis>
+  <sequence>811</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/a_Sign up\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:25</date>
+  <millis>1569154645097</millis>
+  <sequence>818</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - Search Flights/a_Sign up&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:25</date>
+  <millis>1569154645098</millis>
+  <sequence>819</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Search Flights/a_Sign up\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:25</date>
+  <millis>1569154645098</millis>
+  <sequence>820</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner\&amp;quot;), \&amp;quot;anyName\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:28</date>
+  <millis>1569154648622</millis>
+  <sequence>829</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;anyName&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:28</date>
+  <millis>1569154648622</millis>
+  <sequence>830</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner\&amp;quot;), \&amp;quot;anyName\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:28</date>
+  <millis>1569154648623</millis>
+  <sequence>831</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner\&amp;quot;), \&amp;quot;anylastName\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:32</date>
+  <millis>1569154652022</millis>
+  <sequence>840</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;anylastName&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:32</date>
+  <millis>1569154652023</millis>
+  <sequence>841</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner\&amp;quot;), \&amp;quot;anylastName\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:32</date>
+  <millis>1569154652024</millis>
+  <sequence>842</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Email Address_el-input__inner\&amp;quot;), findTestData(\&amp;quot;mail\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:35</date>
+  <millis>1569154655829</millis>
+  <sequence>855</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;8.2vpbidhw@mailosaur.io&amp;apos; is set on object &amp;apos;Object Repository/Page_Fly365 - Register/input_Email Address_el-input__inner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:35</date>
+  <millis>1569154655848</millis>
+  <sequence>856</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Email Address_el-input__inner\&amp;quot;), findTestData(\&amp;quot;mail\&amp;quot;).getValue(1, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:35</date>
+  <millis>1569154655849</millis>
+  <sequence>857</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Password_el-input__inner\&amp;quot;), \&amp;quot;C4hCeJaX4j+j3oL8ZmyqQA==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:39</date>
+  <millis>1569154659505</millis>
+  <sequence>866</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Fly365 - Register/input_Password_el-input__inner&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:39</date>
+  <millis>1569154659505</millis>
+  <sequence>867</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/input_Password_el-input__inner\&amp;quot;), \&amp;quot;C4hCeJaX4j+j3oL8ZmyqQA==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:39</date>
+  <millis>1569154659506</millis>
+  <sequence>868</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/button_CREATE ACCOUNT\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:41</date>
+  <millis>1569154661713</millis>
+  <sequence>875</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Fly365 - Register/button_CREATE ACCOUNT&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:41</date>
+  <millis>1569154661713</millis>
+  <sequence>876</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Fly365 - Register/button_CREATE ACCOUNT\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:41</date>
+  <millis>1569154661714</millis>
+  <sequence>877</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://mailosaur.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:44</date>
+  <millis>1569154664034</millis>
+  <sequence>880</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://mailosaur.com&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:44</date>
+  <millis>1569154664037</millis>
+  <sequence>881</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://mailosaur.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:44</date>
+  <millis>1569154664037</millis>
+  <sequence>882</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Email Testing for QA  Development Teams  Mailosaur/a_Log in\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:48</date>
+  <millis>1569154668945</millis>
+  <sequence>889</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Email Testing for QA  Development Teams  Mailosaur/a_Log in&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:48</date>
+  <millis>1569154668946</millis>
+  <sequence>890</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Email Testing for QA  Development Teams  Mailosaur/a_Log in\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:48</date>
+  <millis>1569154668946</millis>
+  <sequence>891</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/input_Email address_email\&amp;quot;), \&amp;quot;mmagdyhanafy@live.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:52</date>
+  <millis>1569154672298</millis>
+  <sequence>900</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;mmagdyhanafy@live.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Log in to Your Mailosaur Account/input_Email address_email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:52</date>
+  <millis>1569154672299</millis>
+  <sequence>901</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/input_Email address_email\&amp;quot;), \&amp;quot;mmagdyhanafy@live.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:52</date>
+  <millis>1569154672299</millis>
+  <sequence>902</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/input_Password_password\&amp;quot;), \&amp;quot;gU8cVQwaO9nJtY6YH1TiCw==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:55</date>
+  <millis>1569154675531</millis>
+  <sequence>911</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Log in to Your Mailosaur Account/input_Password_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:55</date>
+  <millis>1569154675532</millis>
+  <sequence>912</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/input_Password_password\&amp;quot;), \&amp;quot;gU8cVQwaO9nJtY6YH1TiCw==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:55</date>
+  <millis>1569154675532</millis>
+  <sequence>913</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/button_Log in\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-09-22T14:17:57</date>
+  <millis>1569154677724</millis>
+  <sequence>920</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Log in to Your Mailosaur Account/button_Log in&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:57</date>
+  <millis>1569154677725</millis>
+  <sequence>921</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Log in to Your Mailosaur Account/button_Log in\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:17:57</date>
+  <millis>1569154677725</millis>
+  <sequence>922</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Mailboxes - Mailosaur/a_Fly365_AutomationTesting\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:01</date>
+  <millis>1569154681635</millis>
+  <sequence>929</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Mailboxes - Mailosaur/a_Fly365_AutomationTesting&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:01</date>
+  <millis>1569154681636</millis>
+  <sequence>930</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Mailboxes - Mailosaur/a_Fly365_AutomationTesting\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:01</date>
+  <millis>1569154681636</millis>
+  <sequence>931</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/div_Verify your email\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:03</date>
+  <millis>1569154683852</millis>
+  <sequence>938</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/div_Verify your email&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:03</date>
+  <millis>1569154683853</millis>
+  <sequence>939</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/div_Verify your email\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:03</date>
+  <millis>1569154683853</millis>
+  <sequence>940</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Mailbox - Mailosaur/a_Links_1\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:06</date>
+  <millis>1569154686093</millis>
+  <sequence>947</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Mailbox - Mailosaur/a_Links_1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:06</date>
+  <millis>1569154686093</millis>
+  <sequence>948</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Mailbox - Mailosaur/a_Links_1\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:06</date>
+  <millis>1569154686094</millis>
+  <sequence>949</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/a_httpsaufly365comenverify-email97285a2d-c92b-4a33-920e-2a50475d6880UKuafHeMbgeqBnrtJyDv\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:08</date>
+  <millis>1569154688355</millis>
+  <sequence>956</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/a_httpsaufly365comenverify-email97285a2d-c92b-4a33-920e-2a50475d6880UKuafHeMbgeqBnrtJyDv&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:08</date>
+  <millis>1569154688356</millis>
+  <sequence>957</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/a_httpsaufly365comenverify-email97285a2d-c92b-4a33-920e-2a50475d6880UKuafHeMbgeqBnrtJyDv\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:08</date>
+  <millis>1569154688356</millis>
+  <sequence>958</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:13</date>
+  <millis>1569154693362</millis>
+  <sequence>960</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:13</date>
+  <millis>1569154693371</millis>
+  <sequence>961</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:13</date>
+  <millis>1569154693371</millis>
+  <sequence>962</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694598</millis>
+  <sequence>964</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694598</millis>
+  <sequence>965</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694599</millis>
+  <sequence>966</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (row == 1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694600</millis>
+  <sequence>967</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694601</millis>
+  <sequence>968</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : break</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694601</millis>
+  <sequence>969</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (row == 1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694601</millis>
+  <sequence>970</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;mail\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694601</millis>
+  <sequence>971</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/signUp</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694602</millis>
+  <sequence>972</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:14</date>
+  <millis>1569154694602</millis>
+  <sequence>975</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:16</date>
+  <millis>1569154696734</millis>
+  <sequence>976</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/signUp</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:16</date>
+  <millis>1569154696755</millis>
+  <sequence>977</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Check Afta</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Check Afta</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Check Afta</property>
+  <property name="source">\\Users\\mgdy\\Downloads\\flyTest-auto-Katalon-master\\Test Cases\\Check Afta.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:16</date>
+  <millis>1569154696926</millis>
+  <sequence>979</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:16</date>
+  <millis>1569154696932</millis>
+  <sequence>981</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:21</date>
+  <millis>1569154701558</millis>
+  <sequence>984</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 0e0e34bbf6cb9033f2c3c68c968d4d8c</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">0e0e34bbf6cb9033f2c3c68c968d4d8c</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702585</millis>
+  <sequence>985</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702585</millis>
+  <sequence>986</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702585</millis>
+  <sequence>987</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702586</millis>
+  <sequence>988</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702586</millis>
+  <sequence>989</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702587</millis>
+  <sequence>990</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:22</date>
+  <millis>1569154702587</millis>
+  <sequence>991</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://fly365.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:39</date>
+  <millis>1569154719059</millis>
+  <sequence>994</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://fly365.com&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:39</date>
+  <millis>1569154719060</millis>
+  <sequence>995</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://fly365.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:39</date>
+  <millis>1569154719060</millis>
+  <sequence>996</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementClickable(findTestObject(\&amp;quot;Page_Fly365 - Search Flights/img_Contact us_image-afta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:41</date>
+  <millis>1569154721207</millis>
+  <sequence>1002</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Fly365 - Search Flights/img_Contact us_image-afta&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:41</date>
+  <millis>1569154721208</millis>
+  <sequence>1003</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementClickable(findTestObject(\&amp;quot;Page_Fly365 - Search Flights/img_Contact us_image-afta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:41</date>
+  <millis>1569154721208</millis>
+  <sequence>1004</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : check(findTestObject(\&amp;quot;Page_Fly365 - Search Flights/img_Contact us_image-afta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:44</date>
+  <millis>1569154724434</millis>
+  <sequence>1011</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Fly365 - Search Flights/img_Contact us_image-afta&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:44</date>
+  <millis>1569154724435</millis>
+  <sequence>1012</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : check(findTestObject(\&amp;quot;Page_Fly365 - Search Flights/img_Contact us_image-afta\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:44</date>
+  <millis>1569154724435</millis>
+  <sequence>1013</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-22T14:18:45</date>
+  <millis>1569154725587</millis>
+  <sequence>1015</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:45</date>
+  <millis>1569154725588</millis>
+  <sequence>1016</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:45</date>
+  <millis>1569154725588</millis>
+  <sequence>1017</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Check Afta</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:45</date>
+  <millis>1569154725588</millis>
+  <sequence>1018</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:45</date>
+  <millis>1569154725588</millis>
+  <sequence>1021</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:47</date>
+  <millis>1569154727646</millis>
+  <sequence>1022</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Check Afta</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:47</date>
+  <millis>1569154727646</millis>
+  <sequence>1023</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:47</date>
+  <millis>1569154727648</millis>
+  <sequence>1026</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-22T14:18:47</date>
+  <millis>1569154727704</millis>
+  <sequence>1027</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/fly365</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,176 @@
+1
+00:00:00,240 --> 00:00:00,241
+1. for ([row = 1, row <= findTestData("mail").getRowNumbers(), (row++)])
+
+2
+00:00:01,333 --> 00:00:01,335
+1. openBrowser("")
+
+3
+00:00:05,405 --> 00:00:05,406
+5. navigateToUrl("https://www.fly365.com/")
+
+4
+00:00:25,058 --> 00:00:25,058
+9. click(findTestObject("Object Repository/Page_Fly365 - Search Flights/a_Sign up"))
+
+5
+00:00:27,316 --> 00:00:27,319
+13. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner"), "anyName")
+
+6
+00:00:30,682 --> 00:00:30,683
+17. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner"), "anylastName")
+
+7
+00:00:34,021 --> 00:00:34,023
+21. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_Email Address_el-input__inner"), findTestData("mail").getValue(1, row))
+
+8
+00:00:37,715 --> 00:00:37,718
+25. setEncryptedText(findTestObject("Object Repository/Page_Fly365 - Register/input_Password_el-input__inner"), "C4hCeJaX4j+j3oL8ZmyqQA==")
+
+9
+00:00:41,137 --> 00:00:41,138
+29. click(findTestObject("Object Repository/Page_Fly365 - Register/button_CREATE ACCOUNT"))
+
+10
+00:00:43,358 --> 00:00:43,360
+33. navigateToUrl("https://mailosaur.com")
+
+11
+00:00:45,649 --> 00:00:45,653
+37. click(findTestObject("Object Repository/Page_Email Testing for QA  Development Teams  Mailosaur/a_Log in"))
+
+12
+00:00:50,209 --> 00:00:50,211
+41. setText(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/input_Email address_email"), "mmagdyhanafy@live.com")
+
+13
+00:00:53,522 --> 00:00:53,523
+45. setEncryptedText(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/input_Password_password"), "gU8cVQwaO9nJtY6YH1TiCw==")
+
+14
+00:00:56,793 --> 00:00:56,795
+49. click(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/button_Log in"))
+
+15
+00:00:58,981 --> 00:00:58,984
+53. click(findTestObject("Object Repository/Page_Mailboxes - Mailosaur/a_Fly365_AutomationTesting"))
+
+16
+00:01:02,889 --> 00:01:02,890
+57. click(findTestObject("Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/div_Verify your email"))
+
+17
+00:01:05,157 --> 00:01:05,159
+61. click(findTestObject("Object Repository/Page_Mailbox - Mailosaur/a_Links_1"))
+
+18
+00:01:07,340 --> 00:01:07,344
+65. click(findTestObject("Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/a_httpsaufly365comenverify-email97285a2d-c92b-4a33-920e-2a50475d6880UKuafHeMbgeqBnrtJyDv"))
+
+19
+00:01:09,640 --> 00:01:09,642
+69. delay(5)
+
+20
+00:01:14,701 --> 00:01:14,708
+73. closeBrowser()
+
+21
+00:01:15,986 --> 00:01:15,987
+1. openBrowser("")
+
+22
+00:01:22,123 --> 00:01:22,124
+5. navigateToUrl("https://www.fly365.com/")
+
+23
+00:01:34,695 --> 00:01:34,695
+9. click(findTestObject("Object Repository/Page_Fly365 - Search Flights/a_Sign up"))
+
+24
+00:01:36,906 --> 00:01:36,907
+13. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner"), "anyName")
+
+25
+00:01:40,324 --> 00:01:40,324
+17. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner"), "anylastName")
+
+26
+00:01:43,674 --> 00:01:43,675
+21. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_Email Address_el-input__inner"), findTestData("mail").getValue(1, row))
+
+27
+00:01:47,236 --> 00:01:47,237
+25. setEncryptedText(findTestObject("Object Repository/Page_Fly365 - Register/input_Password_el-input__inner"), "C4hCeJaX4j+j3oL8ZmyqQA==")
+
+28
+00:01:50,591 --> 00:01:50,592
+29. click(findTestObject("Object Repository/Page_Fly365 - Register/button_CREATE ACCOUNT"))
+
+29
+00:01:52,770 --> 00:01:52,770
+33. navigateToUrl("https://mailosaur.com")
+
+30
+00:01:54,840 --> 00:01:54,841
+37. click(findTestObject("Object Repository/Page_Email Testing for QA  Development Teams  Mailosaur/a_Log in"))
+
+31
+00:01:59,224 --> 00:01:59,225
+41. setText(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/input_Email address_email"), "mmagdyhanafy@live.com")
+
+32
+00:02:02,533 --> 00:02:02,534
+45. setEncryptedText(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/input_Password_password"), "gU8cVQwaO9nJtY6YH1TiCw==")
+
+33
+00:02:05,767 --> 00:02:05,769
+49. click(findTestObject("Object Repository/Page_Log in to Your Mailosaur Account/button_Log in"))
+
+34
+00:02:07,967 --> 00:02:07,968
+53. click(findTestObject("Object Repository/Page_Mailboxes - Mailosaur/a_Fly365_AutomationTesting"))
+
+35
+00:02:11,810 --> 00:02:11,812
+57. click(findTestObject("Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/div_Verify your email"))
+
+36
+00:02:14,299 --> 00:02:14,300
+61. click(findTestObject("Object Repository/Page_Mailbox - Mailosaur/a_Links_1"))
+
+37
+00:02:16,499 --> 00:02:16,500
+65. click(findTestObject("Page_Mailboxes - Mailosaur/Page_Mailbox - Mailosaur/a_httpsaufly365comenverify-email97285a2d-c92b-4a33-920e-2a50475d6880UKuafHeMbgeqBnrtJyDv"))
+
+38
+00:02:18,764 --> 00:02:18,765
+69. delay(5)
+
+39
+00:02:23,775 --> 00:02:23,776
+73. closeBrowser()
+
+40
+00:02:25,034 --> 00:02:25,035
+1. openBrowser("")
+
+41
+00:02:28,951 --> 00:02:28,951
+5. navigateToUrl("https://www.fly365.com/")
+
+42
+00:02:52,828 --> 00:02:52,829
+9. click(findTestObject("Object Repository/Page_Fly365 - Search Flights/a_Sign up"))
+
+43
+00:02:55,096 --> 00:02:55,097
+13. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_First Name_el-input__inner"), "anyName")
+
+44
+00:02:58,444 --> 00:02:58,444
+17. setText(findTestObject("Object Repository/Page_Fly365 - Register/input_Family Name_el-input__inner"), "anylastName")
+

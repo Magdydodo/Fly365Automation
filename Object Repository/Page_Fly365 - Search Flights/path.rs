@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>1c9991ae-778c-4254-a767-9475e747312c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pid</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.734 16a8 8 0 1 0-8-8 8.025 8.025 0 0 0 7.999 8h.001zm0-13.334A5.334 5.334 0 1 1 6.4 8a5.35 5.35 0 0 1 5.333-5.334h.001zm0 16C4.266 18.666.934 24.8 0 32h2.666c.666-5.734 3.066-10.666 9.066-10.666S20.134 26.266 20.8 32h2.666c-.8-7.2-4.266-13.334-11.732-13.334z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[1]/div[@class=&quot;app-container&quot;]/div[@class=&quot;relative router-view-container border-t border-primary-first flex flex-col&quot;]/div[1]/div[@class=&quot;head-content w-full lg:pb-20 pb-5 md:h-auto bg-primary-first&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-24&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;search-form relative row justify-center&quot;]/div[@class=&quot;col-24&quot;]/form[@class=&quot;el-form row relative&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-lg-5 form-date-pass mb-3 md:mb-0&quot;]/span[1]/div[@class=&quot;bg-white text-sm h-50 px-3 rounded flex items-center text-primary-third font-medium el-popover__reference&quot;]/svg[@class=&quot;mr-2 text-primary-third svg-icon svg-fill&quot;]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>airportCodes</name>
+   <tag></tag>
+   <containsHeaders>false</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>051bc00a-e8b1-4a0c-95af-23147ac85944</dataFileGUID>
+   <dataSourceUrl>/Users/mgdy/Desktop/airportCodes.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
